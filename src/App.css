@@ -1,0 +1,47 @@
+/* .d-flex{
+    
+    align-items: center;
+} */
+.bg-cover {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0;
+    left: 0;
+    background-size: cover!important;
+    position: absolute !important;
+    background-position: center 40%  ;
+    opacity: 0.4;
+}
+body{
+    background: #02020f;
+    color: white !important;
+}
+.hero-container{
+    position: relative;
+    z-index: 100;
+}
+.text{
+    position: relative;
+    z-index: 200;
+}
+.p-5 {
+    padding: 4rem!important;
+}
+.btn{
+    margin-top: 4px;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+.row .card{
+    width: 85% !important;
+    background-color: #02020f !important;
+    border-color: rgb(9, 9, 44);
+    
+}
